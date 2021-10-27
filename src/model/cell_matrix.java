@@ -2,15 +2,29 @@ package model;
 
 public class cell_matrix {
 	
+	//values
+	private String snake;
+	private String stairs;
+	private player p;
+	private int pos;
+	
+	public cell_matrix(int pos) {
+		this.pos = pos;
+	}
+	
+	
+	//links
 	private cell_matrix next;
 	private cell_matrix prev;
 	private cell_matrix up;
 	private cell_matrix down;
-	private String snake;
-	private String stairs;
-	private player p;
-		
 	
+	public int getPos() {
+		return pos;
+	}
+	public void setPos(int pos) {
+		this.pos = pos;
+	}
 	/**
 	 * @param next
 	 * @param prev
@@ -67,6 +81,12 @@ public class cell_matrix {
 	public void setDown(cell_matrix down) {
 		this.down = down;
 	}
+	
+	@Override
+	public String toString() {
+		return " ["+pos+" "  + snake + " " + stairs + " " + p + "]";
+	}
+	
 	
 	
 	

@@ -2,8 +2,8 @@ package model;
 
 public class Game {
 	
-	private cell_matrix first;
-	private cell_matrix last;
+	private Cell_Matrix first;
+	private Cell_Matrix last;
 	private long size;
 	
 	
