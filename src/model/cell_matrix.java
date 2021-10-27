@@ -9,6 +9,7 @@ public class cell_matrix {
 	private String snake;
 	private String stairs;
 	private player p;
+	private long num_cell;
 	/**
 	 * @param next
 	 * @param prev
@@ -65,6 +66,19 @@ public class cell_matrix {
 	public void setDown(cell_matrix down) {
 		this.down = down;
 	}
+	
+	
+	public long getNum_cell() {
+		return num_cell;
+	}
+	public void setNum_cell(long num_cell) {
+		this.num_cell = num_cell;
+	}
+	@Override
+	public String toString() {
+		return " ["+num_cell+" "  + snake + " " + stairs + " " + p + "]";
+	}
+	
 	
 	
 	
