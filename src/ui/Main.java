@@ -28,6 +28,10 @@ public class Main {
 		return optionAsnwer;
 	}
 	
+	public void recursive() {
+		
+	}
+	
 	public void showGame() {
 		
 	}

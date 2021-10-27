@@ -9,6 +9,8 @@ public class cell_matrix {
 	private String snake;
 	private String stairs;
 	private player p;
+		
+	
 	/**
 	 * @param next
 	 * @param prev

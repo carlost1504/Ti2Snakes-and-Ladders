@@ -7,5 +7,4 @@ public class Game {
 	private long size;
 	
 	
-	
 }	
